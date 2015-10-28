@@ -1,0 +1,92 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="back link"> <i class="icon icon-back"></i><span>返回</span></a></div>
+    <div class="center sliding">职位申请</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class-->
+      <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="form" class="page">
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <div class="content-block-title">职位申请</div>
+      <div class="list-block">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-name"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">姓名</div>
+                <div class="item-input">
+                  <input type="text" placeholder="中文全名"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-email"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">邮件</div>
+                <div class="item-input">
+                  <input type="email" placeholder="E-mail"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-tel"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">手机</div>
+                <div class="item-input">
+                  <input type="tel" placeholder="手机号"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-gender"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">性别</div>
+                <div class="item-input">
+                  <select>
+                    <option>男</option>
+                    <option>女</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-comment"></i></div>
+              <div class="item-inner">
+                <div class="item-title label">职位</div>
+                <div class="item-input">
+                  <input type="text" placeholder="申请职位"/>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="content-block">
+        <div class="row">
+          <div class="col-50"><a href="#" class="button button-big button-fill color-red">取消</a></div>
+          <div class="col-50">
+            <input type="submit" value="提交" class="button button-big button-fill color-green"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
